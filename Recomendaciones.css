@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200;300;400;600;700 & display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Chivo:wght@300;700;900&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
 }
 body{
     margin: 0;
-    background-color: #000000;
+    background-color: #F4F7F2;
 }
 
 /* menu navegacion */
@@ -84,7 +83,7 @@ body{
         transition: all 0.5s;
     }
     .menu ul{
-    flex-direction: column; 
+        flex-direction: column;
         opacity: 75%;
     }
     .menu ul li a{
@@ -120,87 +119,106 @@ body{
     align-items: center;
     padding: 30px 10%;
 }
+/**************************************************************/
+/**************************************************************/
+                      /*RECOMENDACIONES*/
+/**************************************************************/
+/**************************************************************/
+.seccion{
+    width: 100%;
+    margin: 0;
+}
 
+.fondo{
+    width: 100%;
+    height: 80px;
+    background-image: url(./img/Reseñas/reseñaWEB\ 1.png);
+    margin-top: 85px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 
-
-/* ++++++++++DESTACADOS+++++++++++++++++ */
-.destacado{
-    background-image: url("./img/Destacado/5570173.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
-    position: relative;
-    padding-top: 150px;
-    overflow: hidden;
- }
- .cajatitulos{
-    text-align: center;
- }
- .cajatitulos h2{
-    font-family: 'chivo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    margin-top: 0px;
-    text-align: center;
+.titulo h2{
+    width: 22%;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 39%;
+    background-color: #000000ce;
     color: #ffffff;
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
 }
-.cajanoticias{
-    position: flex;
-    background-color: #ffffffa8;
-    width: 35%;
-    height: 400px;
-    margin: auto;
-    
+a{
+    text-decoration: none;
 }
-.noticias{
+.fila{
+    width: 100%;
+    margin-top: -3%;
+    padding-bottom: 8%;
+    color: #000000;
+}
+.fila:hover{
+    background-color: #FDFD96;
+    color: #000000;
+}
+.fila h2{
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1%;
+    text-decoration: none;
+}
+.Caja{
+    width: 100%;
+    display: flex;
+    padding-top: 1%;
+}
+.Caja p{
+    width: 40%;
+    margin-left: 10%;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+.Caja img{
+    width: 100%;
+    max-width: 350px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -2%;
+}
+
+/* --------------- */
+/* -- Copyright -- */
+#copy{
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#copy img{
+    width: 75%;
+    margin-left: 50%;
+}
+.texto{
     width: 100%;
 }
-.noticias h3{
-    font-family: 'Chivo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 100px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 0%;
+.texto ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 15%;
 }
-.noticias img{
+.texto ul li a{
     display: block;
-    margin: auto;
-    margin-top: 2px;
-    width: 40%;
-}
-.noticias p{
-    font-family: 'Chivo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    margin-top: 30px;
-    line-height: 20px;
-    text-align: center;
-    color: #050505;
-}
-
-
-/* DESTACADOS */
-@media (max-width: 900px){
-    .cajanoticias{
-        width: 55%;
-    }
-    .noticias img{
-        margin-top: 0px;
-        width: 50%;
-    }
-    .cajatitulos h2{
-        font-size: 24px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-}        
-    .cajanoticias h3{
-        font-size: 20px;
-    }
-
+    line-height: 85px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
 }
