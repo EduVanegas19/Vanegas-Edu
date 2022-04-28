@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #000000;
+}
+*{
+    box-sizing: border-box;
+}
+#caja{
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+#logo{
+    position: absolute;
+    width: 10%;
+    left: 94px;
+    top: 15px;
+}
+#btn-menu{
+    display: none;
+}
+.menu figure{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu figure li a{
+    display: block;
+    line-height: 85px;
+    padding: 0 20px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Sintony';
+    font-weight: 400;
+    font-size: 15px;
+    left: 66px;
+}
+.menu figure li a i{
+    padding-right: 6px;
+}
+.menu a:hover{
+    background-color: #84B6F4;
+}
